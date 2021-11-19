@@ -1,7 +1,7 @@
 ## analisis de la data mundo
 # lectura de la data
 library(readxl)
-mundo <- read_excel("D:/2021-II/mineria/TRABAJOS/DATA MUNDO/data/mundo.xlsx")
+mundo <- read_excel("D:/2021-II/mineria/TRABAJOS/DATA MUNDO/Data-mining/data/mundo.xlsx")
 colSums(is.na(mundo)) #NA por variable
 sum(is.na(mundo))
 dim(mundo)
